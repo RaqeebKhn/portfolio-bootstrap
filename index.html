@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./styles.css">
+
+    
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark" ">
+        <a class="navbar-brand" href="#">Rk's</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        
+    </section>
+    <div class="danger">
+        <h1>Hi, I'm Raqeeb</h1>
+        <p>Welcome to my portfolio website</p>
+    </div>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./cd1.jpg" class="d-block w-100 pp" alt="">
+                <!-- <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div> -->
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./cd2.jpg" class="d-block w-100 pp" alt="">
+                <!-- <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div> -->
+            </div>
+            <div class="carousel-item">
+                <img src="./cd3.jpg" class="d-block w-100 pp" alt="">
+                <!-- <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div> -->
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="container my-5">
+        <h2>About Me</h2>
+        <p>I'm an experienced QA Test Engineer with nearly 3 years of experience in software testing and quality assurance.
+        Proficient in various testing methodologies, tools, and programming languages. Seeking to leverage expertise in web
+        technologies and programming to transition into a web developer role.<br>
+        For me, coding isn't just about writing lines of text - it's an art form that allows me to express my creativity and
+        solve real-world problems. I'm fascinated by the endless possibilities that web development offers, from crafting
+        intuitive user experiences to leveraging cutting-edge technologies. <br>
+        When I'm not coding, you can find me exploring the latest trends and best practices in web design, attending
+        conferences, or participating in online communities to stay up-to-date with the latest advancements. 
+        </p>
+        <p>If you're looking for a dedicated and innovative web developer who is always eager to take on new challenges, let's
+        connect! I'd love to collaborate with like-minded individuals and businesses to create remarkable digital experiences
+        that inspire and engage.</p>
+        
+
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="container my-5">
+        <h2>My Work</h2>
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <img src="./weather.jpg" class="kk" alt="Portfolio Item 1">
+                <h5>Weather App</h5>
+                <p>A simple weather app built using HTML, CSS, and JavaScript. Search for current weather conditions and forecasts by city
+                or zip code. Features include current weather conditions and temperature, 5-day weather forecast and Responsive design
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <img src="./kanban.jpg" class="kk" alt="Portfolio Item 2">
+                <h5>Kanban Board</h5>
+                <p>A interactive Kanban board application built using HTML, CSS, and JavaScript. This app allows users to create and manage
+                tasks, organize them into columns, and track their progress. Features include create, edit, and delete tasks,
+                drag-and-drop tasks between columns, customize column names and task colors and save and load board state.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <img src="./todo.jpg" class="kk" alt="Portfolio Item 3">
+                <h5>ToDo list</h5>
+                <p>A simple to-do list app built using HTML, CSS, and JavaScript. Create, edit, and delete tasks, and mark them as
+                completed. Features include task creation and editing, task deletion and completion, save and load task list</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2024 Raqeeb Khan. No Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
